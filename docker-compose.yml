@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  postgres:
+    container_name: postgres_study
+    hostname: postgres
+    image: postgres:14
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: test_postgres
+    ports:
+    - '5432:5432'
