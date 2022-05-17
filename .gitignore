@@ -4,11 +4,12 @@
 # Log file
 *.log
 
-# BlueJ files
-*.ctxt
+# IntelliJ files
+.idea/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Gradle files
+.gradle/
+build/
 
 # Package Files #
 *.jar
