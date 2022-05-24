@@ -14,8 +14,9 @@ e também para mostrar que o Kotlin pode ser usado no Backend.
 ### Postgres
 Para criar e iniciar o postgres, executar no terminal:
 ```bash
-docker-compose up
+docker compose up
 ```
+(Para versões mais antigas do docker compose usar:`docker-compose up`)
 
 Para conectar no Postgres e visualizar as conexões:
 
@@ -65,8 +66,9 @@ and also to show that Kotlin can be used in the Backend.
 ### Postgres
 To create and start postgres, run in terminal:
 ```bash
-docker-compose up
+docker compose up
 ```
+(For older versions of docker compose: `docker-compose up`)
 
 To connect to Postgres and view connections:
 
