@@ -2,7 +2,9 @@
 [English version](#-connection-pool---study-examples-on-how-it-works)
 
 Essa aplicação foi criada para exemplificar as funcionalidades de um _Connection Pool_ 
-e também para mostrar que o Kotlin pode ser usado no Backend.
+e também para mostrar que o Kotlin não se restringe a Mobile e pode ser usado no Backend.
+
+[Nessa publicação](https://medium.com/creditas-tech/pool-de-conex%C3%B5es-com-spring-e-postgres-ded983543522) está a explicação detalhada do conceito.
 
 ## Pré requisitos:
 - [Docker compose 1.25+](https://docs.docker.com/compose/install/)
@@ -57,6 +59,8 @@ gradlew.bat run -PexampleToRun=ConnectionPoolLimitTimeoutExample
 # 🇺🇸 Connection pool - Study examples on how it works
 This application was created to exemplify the functionalities of a _Connection Pool_
 and also to show that Kotlin can be used in the Backend.
+
+Concept and the detailed explanation [in this post (Portuguese language)](https://medium.com/creditas-tech/pool-de-conex%C3%B5es-com-spring-e-postgres-ded983543522).
 
 ## Prerequisites:
 - [Docker compose 1.25+](https://docs.docker.com/compose/install/)
